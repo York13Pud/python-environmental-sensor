@@ -1,0 +1,46 @@
+.link-break-spacing {
+    padding-right: 6px;
+    padding-left: 6px;
+    font-size: 18px;
+}
+
+
+.post-function-spacing {
+    padding-left: 10px;
+}
+
+
+#image-header-container {
+    height: 250px;
+    background: url(../images/base-header-1.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: fixed; 
+    top: 55px; 
+    width: 100%; 
+    z-index:1;
+}
+
+.image-header-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 250px;
+    height: 150px;
+    border : 0px;
+    
+}
+
+#collapsed-menu {
+    z-index: 2;
+}
+
+.main {
+    position:relative;
+    margin-top: 150px;
+}
+
+.header-title-text {
+    font-size: 3em;
+    color: white;
+}
